@@ -15,19 +15,26 @@ scalable and secure applications using modern technologies.
 
 <br/>
 
-<h3>Technical Skills</h3>
+<h3 align="center">Technical Skills</h3>
 
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,react,nextjs,nodejs,mysql&theme=dark&perline=8" alt="Skills Row 1" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,git,github,docker,aws&theme=dark&perline=8" alt="Skills Row 2" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=django,mongodb,flask,express,figma,prisma,postman,vscode&theme=dark&perline=8" alt="Skills Row 3" />
-
-<br/><br/>
+<table align="center">
+  <tr>
+    <td align="center">Python</td>
+    <td align="center">Java</td>
+    <td align="center">React</td>
+    <td align="center">Node.js</td>
+    <td align="center">MySQL</td>
+    <td align="center">Git</td>
+  </tr>
+  <tr>
+    <td align="center">Docker</td>
+    <td align="center">AWS</td>
+    <td align="center">HTML5</td>
+    <td align="center">CSS3</td>
+    <td align="center">JavaScript</td>
+    <td align="center">Django</td>
+  </tr>
+</table>
 
 <h3>Contributions</h3>
 
