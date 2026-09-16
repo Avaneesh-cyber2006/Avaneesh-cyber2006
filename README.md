@@ -29,14 +29,12 @@ scalable and secure applications using modern technologies.
 
 <br/><br/>
 
-<h3>Contributions</h3>
+<h3 align="center">Contributions</h3>
 
-<br/>
-
-<img
-src="https://raw.githubusercontent.com/Avaneesh-cyber2006/Avaneesh-cyber2006/output/github-contribution-grid-snake-dark.svg"
-width="100%"
-alt="Contribution Animation"
-/>
-
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/Avaneesh-cyber2006/Avaneesh-cyber2006/output/github-contribution-grid-snake-dark.svg"
+    alt="Contribution Snake"
+    width="100%"
+  />
 </div>
