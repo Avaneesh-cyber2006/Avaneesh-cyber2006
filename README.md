@@ -56,12 +56,4 @@ scalable and secure applications using modern technologies.
   </tr>
 </table>
 
-<h3>Contributions</h3>
 
-<img
-  src="https://raw.githubusercontent.com/Avaneesh-cyber2006/Avaneesh-cyber2006/output/github-contribution-grid-snake-dark.svg"
-  alt="GitHub Contribution Animation"
-  width="100%"
-/>
-
-</div>
