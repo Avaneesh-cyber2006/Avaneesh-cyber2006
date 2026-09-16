@@ -32,9 +32,19 @@ scalable and secure applications using modern technologies.
 <h3 align="center">Contributions</h3>
 
 <div align="center">
-  <img
-    src="https://raw.githubusercontent.com/Avaneesh-cyber2006/Avaneesh-cyber2006/output/github-contribution-grid-snake-dark.svg"
-    alt="Contribution Snake"
-    width="100%"
-  />
+
+<img
+  src="https://ghchart.rshah.org/Avaneesh-cyber2006"
+  alt="GitHub Contribution Calendar"
+  width="100%"
+/>
+
+<br/>
+
+<img
+  src="https://raw.githubusercontent.com/Avaneesh-cyber2006/Avaneesh-cyber2006/output/github-contribution-grid-snake-dark.svg"
+  alt="Contribution Snake"
+  width="100%"
+/>
+
 </div>
