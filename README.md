@@ -58,10 +58,10 @@ scalable and secure applications using modern technologies.
 
 <h3>Contributions</h3>
 
-<img
-  src="https://ghchart.rshah.org/Avaneesh-cyber2006"
-  alt="GitHub Contribution Calendar"
-  width="100%"
-/>
-
-</div>
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Avaneesh-cyber2006/Avaneesh-cyber2006/output/contributions-dark.svg"
+    alt="GitHub Contribution Calendar"
+    width="100%"
+  />
+</p>
