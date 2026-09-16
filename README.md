@@ -11,7 +11,12 @@
   />
 </div>
 </div>
-<img src="https://komarev.com/ghpvc/?username=Avaneesh-cyber2006&label=PROFILE%20VIEWS&color=0077b5&style=for-the-badge" alt="Profile Views" />
+<p align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=Avaneesh-cyber2006&label=PROFILE%20VIEWS&color=0077b5&style=for-the-badge"
+    alt="Profile Views"
+  />
+</p>
 <p>
 I'm a developer with a passion for creating impactful,
 scalable and secure applications using modern technologies.
