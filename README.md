@@ -19,8 +19,7 @@
 <br/>
 
 <p>
-I'm a developer with a passion for creating impactful,
-scalable and secure applications using modern technologies.
+I don’t just develop applications—I craft solutions that matter, designed to solve real‑world problems with strength, scalability, and security.
 </p>
 
 <h3>Technical Skills</h3>
