@@ -11,17 +11,26 @@ I'm a developer with a passion for creating impactful,
 scalable and secure applications using modern technologies.
 </p>
 
-<h3>Technical Skills</h3>
+<h3 align="center">Technical Skills</h3>
 
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,react,nextjs,nodejs,mysql&theme=dark&perline=8" alt="Skills Row 1" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,git,github,docker,aws&theme=dark&perline=8" alt="Skills Row 2" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=django,mongodb,flask,express,figma,prisma,postman,vscode&theme=dark&perline=8" alt="Skills Row 3" />
+<table align="center">
+  <tr>
+    <td><img src="https://cdn.simpleicons.org/python" width="20" height="20" alt="Python"/> Python</td>
+    <td>☕ Java</td>
+    <td><img src="https://cdn.simpleicons.org/react" width="20" height="20" alt="React"/> React</td>
+    <td><img src="https://cdn.simpleicons.org/nodedotjs" width="20" height="20" alt="Node.js"/> Node.js</td>
+    <td><img src="https://cdn.simpleicons.org/mysql" width="20" height="20" alt="MySQL"/> MySQL</td>
+    <td><img src="https://cdn.simpleicons.org/git" width="20" height="20" alt="Git"/> Git</td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.simpleicons.org/docker" width="20" height="20" alt="Docker"/> Docker</td>
+    <td><img src="https://cdn.simpleicons.org/amazonwebservices" width="20" height="20" alt="AWS"/> AWS</td>
+    <td><img src="https://cdn.simpleicons.org/html5" width="20" height="20" alt="HTML5"/> HTML5</td>
+    <td><img src="https://cdn.simpleicons.org/css" width="20" height="20" alt="CSS3"/> CSS3</td>
+    <td><img src="https://cdn.simpleicons.org/javascript" width="20" height="20" alt="JavaScript"/> JavaScript</td>
+    <td><img src="https://cdn.simpleicons.org/django" width="20" height="20" alt="Django"/> Django</td>
+  </tr>
+</table>
 
 <h3>Contributions</h3>
 
