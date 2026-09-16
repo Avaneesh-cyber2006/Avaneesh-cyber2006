@@ -17,33 +17,25 @@ scalable and secure applications using modern technologies.
 
 <h3>Technical Skills</h3>
 
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,react,nextjs,nodejs,mysql&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,react,nextjs,nodejs,mysql&theme=dark&perline=8" alt="Skills Row 1" />
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,git,github,docker,aws&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,git,github,docker,aws&theme=dark&perline=8" alt="Skills Row 2" />
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=django,mongodb,flask,express,figma,prisma,postman,vscode&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=django,mongodb,flask,express,figma,prisma,postman,vscode&theme=dark&perline=8" alt="Skills Row 3" />
 
 <br/><br/>
 
-<h3 align="center">Contributions</h3>
-
-<div align="center">
-
-<img
-  src="https://ghchart.rshah.org/Avaneesh-cyber2006"
-  alt="GitHub Contribution Calendar"
-  width="100%"
-/>
+<h3>Contributions</h3>
 
 <br/>
 
 <img
   src="https://raw.githubusercontent.com/Avaneesh-cyber2006/Avaneesh-cyber2006/output/github-contribution-grid-snake-dark.svg"
-  alt="Contribution Snake"
+  alt="My GitHub Contribution Animation"
   width="100%"
 />
 
