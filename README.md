@@ -4,7 +4,12 @@
 
 <hr/>
 
-<h3>I write code and build stuff.</h3>
+<div align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=24&duration=2500&pause=1500&color=FFFFFF&center=true&vCenter=true&width=500&height=45&lines=I+write+code+and+build+stuff."
+    alt="Typing Animation"
+  />
+</div>
 <img src="https://komarev.com/ghpvc/?username=Avaneesh-cyber2006&label=PROFILE%20VIEWS&color=0077b5&style=for-the-badge" alt="Profile Views" />
 <p>
 I'm a developer with a passion for creating impactful,
