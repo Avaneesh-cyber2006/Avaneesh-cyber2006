@@ -1,11 +1,11 @@
 <div align="center">
 
 <h1>Hi 👋, I'm Avaneesh</h1>
-<img src="https://komarev.com/ghpvc/?username=Avaneesh-cyber2006&label=PROFILE%20VIEWS&color=0077b5&style=for-the-badge" alt="Profile Views" />
+
 <hr/>
 
 <h3>I write code and build stuff.</h3>
-
+<img src="https://komarev.com/ghpvc/?username=Avaneesh-cyber2006&label=PROFILE%20VIEWS&color=0077b5&style=for-the-badge" alt="Profile Views" />
 <p>
 I'm a developer with a passion for creating impactful,
 scalable and secure applications using modern technologies.
