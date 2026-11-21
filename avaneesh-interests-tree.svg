@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="500" viewBox="0 0 1420 500" role="img" aria-labelledby="title desc">
+<title id="title">Avaneesh — Expanding Interests Tree</title>
+<desc id="desc">Avaneesh branches into Development (Full Stack Development, IoT Applications), Intelligence (Artificial Intelligence, Machine Learning), Systems (Garuda Linux, DBMS), and Security (Cybersecurity).</desc>
+<defs>
+  <linearGradient id="rootFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#174670"/><stop offset="1" stop-color="#182C48"/></linearGradient>
+</defs>
+
+<path d="M 710 115 C 710 175, 235 178, 235 227" fill="none" stroke="#58A6FF" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+<path d="M 235 286 C 235 341, 140 341, 140 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
+<path d="M 235 286 C 235 341, 330 341, 330 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
+<path d="M 710 115 C 710 175, 615 178, 615 227" fill="none" stroke="#58A6FF" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+<path d="M 615 286 C 615 341, 520 341, 520 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
+<path d="M 615 286 C 615 341, 710 341, 710 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
+<path d="M 710 115 C 710 175, 995 178, 995 227" fill="none" stroke="#58A6FF" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+<path d="M 995 286 C 995 341, 900 341, 900 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
+<path d="M 995 286 C 995 341, 1090 341, 1090 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
+<path d="M 710 115 C 710 175, 1280 178, 1280 227" fill="none" stroke="#58A6FF" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+<path d="M 1280 286 C 1280 341, 1280 341, 1280 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
+<ellipse cx="710" cy="81" rx="116" ry="38" fill="url(#rootFill)" stroke="#58A6FF" stroke-width="3"/>
+<text x="710" y="88" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Avaneesh</text>
+<rect x="127" y="228" width="216" height="58" rx="11" fill="#132238" stroke="#58A6FF" stroke-width="2"/>
+<text x="235" y="263" text-anchor="middle" fill="#DCEBFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Development</text>
+<rect x="507" y="228" width="216" height="58" rx="11" fill="#132238" stroke="#58A6FF" stroke-width="2"/>
+<text x="615" y="263" text-anchor="middle" fill="#DCEBFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Intelligence</text>
+<rect x="887" y="228" width="216" height="58" rx="11" fill="#132238" stroke="#58A6FF" stroke-width="2"/>
+<text x="995" y="263" text-anchor="middle" fill="#DCEBFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Systems</text>
+<rect x="1172" y="228" width="216" height="58" rx="11" fill="#132238" stroke="#58A6FF" stroke-width="2"/>
+<text x="1280" y="263" text-anchor="middle" fill="#DCEBFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Security</text>
+<rect x="50" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
+<text x="140" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">Full Stack Development</text>
+<rect x="240" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
+<text x="330" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">IoT Applications</text>
+<rect x="430" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
+<text x="520" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">Artificial Intelligence</text>
+<rect x="620" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
+<text x="710" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">Machine Learning</text>
+<rect x="810" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
+<text x="900" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">Garuda Linux</text>
+<rect x="1000" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
+<text x="1090" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">DBMS</text>
+<rect x="1190" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
+<text x="1280" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">Cybersecurity</text>
+</svg>
