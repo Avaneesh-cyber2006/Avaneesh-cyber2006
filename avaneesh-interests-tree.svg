@@ -1,43 +1,172 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="500" viewBox="0 0 1420 500" role="img" aria-labelledby="title desc">
-<title id="title">Avaneesh — Expanding Interests Tree</title>
-<desc id="desc">Avaneesh branches into Development (Full Stack Development, IoT Applications), Intelligence (Artificial Intelligence, Machine Learning), Systems (Garuda Linux, DBMS), and Security (Cybersecurity).</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="treeTitle treeDesc">
+<title id="treeTitle">Avaneesh — Expanding Interests</title>
+<desc id="treeDesc">A symmetric neon mind map with Avaneesh at the center. Development, Intelligence, and Data Management branch left. Garuda Linux, Cybersecurity, and Systems and Applications branch right, each connected to its interests.</desc>
 <defs>
-  <linearGradient id="rootFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#174670"/><stop offset="1" stop-color="#182C48"/></linearGradient>
+ <radialGradient id="bg" cx="50%" cy="52%" r="73%"><stop offset="0" stop-color="#0c1c35"/><stop offset=".5" stop-color="#071225"/><stop offset="1" stop-color="#050a13"/></radialGradient>
+ <radialGradient id="rootFill"><stop offset="0" stop-color="#13284b"/><stop offset=".68" stop-color="#0a1830"/><stop offset="1" stop-color="#050f1e"/></radialGradient>
+ <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#42cfff"/><stop offset=".43" stop-color="#297cff"/><stop offset=".78" stop-color="#b36cff"/><stop offset="1" stop-color="#40f5d2"/></linearGradient>
+ <linearGradient id="midFill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#16294b"/><stop offset="1" stop-color="#071222"/></linearGradient>
+ <linearGradient id="leafFill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#10233d"/><stop offset="1" stop-color="#07111e"/></linearGradient>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="7"/></filter>
+ <filter id="brightGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
+ <filter id="nodeShadow" x="-40%" y="-80%" width="180%" height="260%"><feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#000814" flood-opacity=".9"/></filter>
+ <symbol id="i-code" viewBox="0 0 36 36"><path d="m13 9-9 9 9 9M23 9l9 9-9 9M20 6l-5 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="i-wifi" viewBox="0 0 36 36"><circle cx="18" cy="20" r="3.6" fill="currentColor"/><path d="M11 12c-3 3-3 7 0 10m14-10c3 3 3 7 0 10M6 7C-1 14 1 23 7 28M30 7c7 7 5 16-1 21M18 24l-4 9h8z" stroke="currentColor" stroke-width="2.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="i-brain" viewBox="0 0 36 36"><path d="M17 6c-7-7-16 1-12 8-6 5-2 12 3 12-1 7 8 9 10 2V8m1-2c7-7 16 1 12 8 6 5 2 12-3 12 1 7-8 9-10 2V8" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M9 14l7 5m-7 6 7-4m11-7-7 5m7 6-7-4" stroke="currentColor" stroke-width="2.1" fill="none"/></symbol>
+ <symbol id="i-bars" viewBox="0 0 36 36"><path d="M5 25h7v7H5zm10-9h7v16h-7zm10-12h7v28h-7z" fill="currentColor" rx="1"/></symbol>
+ <symbol id="i-db" viewBox="0 0 36 36"><ellipse cx="18" cy="8" rx="13" ry="5" stroke="currentColor" stroke-width="2.5" fill="none"/><path d="M5 8v10c0 7 26 7 26 0V8M5 18v10c0 7 26 7 26 0V18" stroke="currentColor" stroke-width="2.5" fill="none"/></symbol>
+ <symbol id="i-stack" viewBox="0 0 36 36"><path d="m18 4 15 8-15 8L3 12 18 4zm-15 14 15 8 15-8M3 24l15 8 15-8" stroke="currentColor" stroke-width="2.7" fill="none" stroke-linejoin="round"/></symbol>
+ <symbol id="i-shield" viewBox="0 0 36 36"><path d="M18 3 32 9v9c0 9-6 14-14 16C10 32 4 27 4 18V9L18 3z" stroke="currentColor" stroke-width="2.5" fill="none"/><path d="m11 18 5 5 10-11" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/></symbol>
+ <symbol id="i-gear" viewBox="0 0 36 36"><path d="M15 3h6l1 5 4 2 5-2 3 5-4 4v4l4 3-3 5-5-2-4 2-1 5h-6l-1-5-4-2-5 2-3-5 4-3v-4l-4-4 3-5 5 2 4-2 1-5z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><circle cx="18" cy="18" r="5" fill="none" stroke="currentColor" stroke-width="2.6"/></symbol>
+ <symbol id="i-monitor" viewBox="0 0 36 36"><rect x="3" y="5" width="30" height="23" rx="2" stroke="currentColor" stroke-width="2.7" fill="none"/><path d="M12 33h12M18 28v5" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></symbol>
+ <symbol id="i-lock" viewBox="0 0 36 36"><rect x="7" y="16" width="22" height="17" rx="2" stroke="currentColor" stroke-width="2.6" fill="none"/><path d="M12 16V11a6 6 0 0 1 12 0v5" stroke="currentColor" stroke-width="2.7" fill="none"/><circle cx="18" cy="24" r="2" fill="currentColor"/></symbol>
+ <symbol id="i-cube" viewBox="0 0 36 36"><path d="m18 3 14 8v15l-14 8L4 26V11L18 3zm0 16v15m0-15L4 11m14 8 14-8" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linejoin="round"/></symbol>
+ <symbol id="i-spark" viewBox="0 0 36 36"><path d="m18 2 3.8 12.2L34 18l-12.2 3.8L18 34l-3.8-12.2L2 18l12.2-3.8L18 2z" fill="currentColor"/><path d="M30 1v8M26 5h8" stroke="currentColor" stroke-width="1.8"/></symbol>
+ <symbol id="i-network" viewBox="0 0 36 36"><rect x="14" y="3" width="8" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><rect x="2" y="25" width="9" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><rect x="25" y="25" width="9" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><path d="M18 11v8M6 25v-6h24v6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+ <symbol id="i-terminal" viewBox="0 0 36 36"><rect x="3" y="5" width="30" height="26" rx="3" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="m10 12 6 6-6 6m10 0h7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="i-mask" viewBox="0 0 36 36"><path d="M5 16h26l-3 12H8L5 16zM5 12l5-7h16l5 7" stroke="currentColor" fill="none" stroke-width="2.4"/><path d="M12 21h4m4 0h4m-8 3 2 2 2-2" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+ <symbol id="i-linux" viewBox="0 0 36 36"><path d="M10 32 4 24l3-7 9-12 5-3-1 8 10 5 3 11-8-1-5 7h-10z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M10 22h15l-8-6zM21 12l6-7" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+ <symbol id="i-rocket" viewBox="0 0 36 36"><path d="M13 24c-3-6 3-16 18-20-1 15-12 21-18 20zM12 24l-5 5M9 19l-6 4m14 6-4 6" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="24" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
 </defs>
+<rect width="1600" height="520" fill="url(#bg)"/>
+<!-- Subtle local radiance only; the SVG contains no README heading or profile header. -->
+<ellipse cx="797" cy="259" rx="270" ry="240" fill="#1b54af" opacity=".055"/>
 
-<path d="M 710 115 C 710 175, 235 178, 235 227" fill="none" stroke="#58A6FF" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
-<path d="M 235 286 C 235 341, 140 341, 140 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
-<path d="M 235 286 C 235 341, 330 341, 330 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
-<path d="M 710 115 C 710 175, 615 178, 615 227" fill="none" stroke="#58A6FF" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
-<path d="M 615 286 C 615 341, 520 341, 520 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
-<path d="M 615 286 C 615 341, 710 341, 710 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
-<path d="M 710 115 C 710 175, 995 178, 995 227" fill="none" stroke="#58A6FF" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
-<path d="M 995 286 C 995 341, 900 341, 900 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
-<path d="M 995 286 C 995 341, 1090 341, 1090 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
-<path d="M 710 115 C 710 175, 1280 178, 1280 227" fill="none" stroke="#58A6FF" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
-<path d="M 1280 286 C 1280 341, 1280 341, 1280 389" fill="none" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" opacity=".78"/>
-<ellipse cx="710" cy="81" rx="116" ry="38" fill="url(#rootFill)" stroke="#58A6FF" stroke-width="3"/>
-<text x="710" y="88" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Avaneesh</text>
-<rect x="127" y="228" width="216" height="58" rx="11" fill="#132238" stroke="#58A6FF" stroke-width="2"/>
-<text x="235" y="263" text-anchor="middle" fill="#DCEBFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Development</text>
-<rect x="507" y="228" width="216" height="58" rx="11" fill="#132238" stroke="#58A6FF" stroke-width="2"/>
-<text x="615" y="263" text-anchor="middle" fill="#DCEBFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Intelligence</text>
-<rect x="887" y="228" width="216" height="58" rx="11" fill="#132238" stroke="#58A6FF" stroke-width="2"/>
-<text x="995" y="263" text-anchor="middle" fill="#DCEBFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Systems</text>
-<rect x="1172" y="228" width="216" height="58" rx="11" fill="#132238" stroke="#58A6FF" stroke-width="2"/>
-<text x="1280" y="263" text-anchor="middle" fill="#DCEBFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Security</text>
-<rect x="50" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
-<text x="140" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">Full Stack Development</text>
-<rect x="240" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
-<text x="330" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">IoT Applications</text>
-<rect x="430" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
-<text x="520" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">Artificial Intelligence</text>
-<rect x="620" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
-<text x="710" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">Machine Learning</text>
-<rect x="810" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
-<text x="900" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">Garuda Linux</text>
-<rect x="1000" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
-<text x="1090" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">DBMS</text>
-<rect x="1190" y="390" width="180" height="57" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.7"/>
-<text x="1280" y="424" text-anchor="middle" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500">Cybersecurity</text>
+<path d="M 680 260 C 652 260 651 100 611 100" fill="none" stroke="#35caff" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 680 260 C 652 260 651 100 611 100" fill="none" stroke="#35caff" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 680 260 C 647 260 647 260 611 260" fill="none" stroke="#b783ff" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 680 260 C 647 260 647 260 611 260" fill="none" stroke="#b783ff" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 680 260 C 652 260 652 420 611 420" fill="none" stroke="#2ff4a7" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 680 260 C 652 260 652 420 611 420" fill="none" stroke="#2ff4a7" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 920 260 C 948 260 948 100 982 100" fill="none" stroke="#ffad62" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 920 260 C 948 260 948 100 982 100" fill="none" stroke="#ffad62" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 920 260 C 948 260 948 260 982 260" fill="none" stroke="#ff659c" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 920 260 C 948 260 948 260 982 260" fill="none" stroke="#ff659c" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 920 260 C 948 260 948 420 982 420" fill="none" stroke="#9a84ff" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 920 260 C 948 260 948 420 982 420" fill="none" stroke="#9a84ff" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 351 100 C 327 100 334 48 312 48" fill="none" stroke="#35caff" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 351 100 C 327 100 334 48 312 48" fill="none" stroke="#35caff" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 351 100 C 327 100 334 133 312 133" fill="none" stroke="#35caff" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 351 100 C 327 100 334 133 312 133" fill="none" stroke="#35caff" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 351 260 C 327 260 334 218 312 218" fill="none" stroke="#b783ff" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 351 260 C 327 260 334 218 312 218" fill="none" stroke="#b783ff" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 351 260 C 327 260 334 303 312 303" fill="none" stroke="#b783ff" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 351 260 C 327 260 334 303 312 303" fill="none" stroke="#b783ff" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 351 420 C 330 420 337 420 312 420" fill="none" stroke="#2ff4a7" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 351 420 C 330 420 337 420 312 420" fill="none" stroke="#2ff4a7" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 1242 100 C 1266 100 1260 48 1292 48" fill="none" stroke="#ffad62" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 1242 100 C 1266 100 1260 48 1292 48" fill="none" stroke="#ffad62" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 1242 100 C 1266 100 1260 133 1292 133" fill="none" stroke="#ffad62" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 1242 100 C 1266 100 1260 133 1292 133" fill="none" stroke="#ffad62" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 1242 260 C 1266 260 1260 218 1292 218" fill="none" stroke="#ff659c" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 1242 260 C 1266 260 1260 218 1292 218" fill="none" stroke="#ff659c" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 1242 260 C 1266 260 1260 303 1292 303" fill="none" stroke="#ff659c" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 1242 260 C 1266 260 1260 303 1292 303" fill="none" stroke="#ff659c" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 1242 420 C 1266 420 1260 388 1292 388" fill="none" stroke="#9a84ff" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 1242 420 C 1266 420 1260 388 1292 388" fill="none" stroke="#9a84ff" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<path d="M 1242 420 C 1266 420 1260 473 1292 473" fill="none" stroke="#9a84ff" stroke-width="11" opacity=".45" filter="url(#glow)"/>
+<path d="M 1242 420 C 1266 420 1260 473 1292 473" fill="none" stroke="#9a84ff" stroke-width="3.6" stroke-linecap="round" opacity=".88"/>
+<g filter="url(#nodeShadow)"><rect x="26" y="20.0" width="286" height="56" rx="28.0" fill="url(#leafFill)" stroke="#34c8ff" stroke-width="2.6"/>
+<rect x="28" y="21.5" width="282" height="53" rx="27.0" fill="none" stroke="#34c8ff" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-code" x="46" y="33.0" width="30" height="30" color="#34c8ff"/>
+<text x="92" y="43" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Full Stack</text>
+<text x="92" y="67" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Development</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="26" y="105.0" width="286" height="56" rx="28.0" fill="url(#leafFill)" stroke="#34c8ff" stroke-width="2.6"/>
+<rect x="28" y="106.5" width="282" height="53" rx="27.0" fill="none" stroke="#34c8ff" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-wifi" x="46" y="118.0" width="30" height="30" color="#34c8ff"/>
+<text x="92" y="139.1" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">IoT Applications</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="26" y="190.0" width="286" height="56" rx="28.0" fill="url(#leafFill)" stroke="#b784ff" stroke-width="2.6"/>
+<rect x="28" y="191.5" width="282" height="53" rx="27.0" fill="none" stroke="#b784ff" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-spark" x="46" y="203.0" width="30" height="30" color="#b784ff"/>
+<text x="92" y="213" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Artificial</text>
+<text x="92" y="237" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Intelligence</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="26" y="275.0" width="286" height="56" rx="28.0" fill="url(#leafFill)" stroke="#b784ff" stroke-width="2.6"/>
+<rect x="28" y="276.5" width="282" height="53" rx="27.0" fill="none" stroke="#b784ff" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-bars" x="46" y="288.0" width="30" height="30" color="#b784ff"/>
+<text x="92" y="298" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Machine</text>
+<text x="92" y="322" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Learning</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="26" y="392.0" width="286" height="56" rx="28.0" fill="url(#leafFill)" stroke="#2aee9a" stroke-width="2.6"/>
+<rect x="28" y="393.5" width="282" height="53" rx="27.0" fill="none" stroke="#2aee9a" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-db" x="46" y="405.0" width="30" height="30" color="#2aee9a"/>
+<text x="92" y="426.1" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">DBMS</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="1292" y="20.0" width="281" height="56" rx="28.0" fill="url(#leafFill)" stroke="#ffb06d" stroke-width="2.6"/>
+<rect x="1294" y="21.5" width="277" height="53" rx="27.0" fill="none" stroke="#ffb06d" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-monitor" x="1312" y="33.0" width="30" height="30" color="#ffb06d"/>
+<text x="1358" y="54.1" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Customization</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="1292" y="105.0" width="281" height="56" rx="28.0" fill="url(#leafFill)" stroke="#ffb06d" stroke-width="2.6"/>
+<rect x="1294" y="106.5" width="277" height="53" rx="27.0" fill="none" stroke="#ffb06d" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-gear" x="1312" y="118.0" width="30" height="30" color="#ffb06d"/>
+<text x="1358" y="139.1" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">System Setup</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="1292" y="190.0" width="281" height="56" rx="28.0" fill="url(#leafFill)" stroke="#ff6b9e" stroke-width="2.6"/>
+<rect x="1294" y="191.5" width="277" height="53" rx="27.0" fill="none" stroke="#ff6b9e" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-lock" x="1312" y="203.0" width="30" height="30" color="#ff6b9e"/>
+<text x="1358" y="224.1" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Security Practices</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="1292" y="275.0" width="281" height="56" rx="28.0" fill="url(#leafFill)" stroke="#ff6b9e" stroke-width="2.6"/>
+<rect x="1294" y="276.5" width="277" height="53" rx="27.0" fill="none" stroke="#ff6b9e" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-mask" x="1312" y="288.0" width="30" height="30" color="#ff6b9e"/>
+<text x="1358" y="309.1" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Ethical Hacking</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="1292" y="360.0" width="281" height="56" rx="28.0" fill="url(#leafFill)" stroke="#a28bff" stroke-width="2.6"/>
+<rect x="1294" y="361.5" width="277" height="53" rx="27.0" fill="none" stroke="#a28bff" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-network" x="1312" y="373.0" width="30" height="30" color="#a28bff"/>
+<text x="1358" y="394.1" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">System Design</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="1292" y="445.0" width="281" height="56" rx="28.0" fill="url(#leafFill)" stroke="#a28bff" stroke-width="2.6"/>
+<rect x="1294" y="446.5" width="277" height="53" rx="27.0" fill="none" stroke="#a28bff" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-rocket" x="1312" y="458.0" width="30" height="30" color="#a28bff"/>
+<text x="1358" y="479.1" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Real-World Solutions</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="351" y="61.5" width="260" height="77" rx="38.5" fill="url(#midFill)" stroke="#2fc6ff" stroke-width="2.6"/>
+<rect x="353" y="63.0" width="256" height="74" rx="37.5" fill="none" stroke="#2fc6ff" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-stack" x="378" y="82.0" width="36" height="36" color="#2fc6ff"/>
+<text x="428" y="108.2" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Development</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="351" y="221.5" width="260" height="77" rx="38.5" fill="url(#midFill)" stroke="#b584ff" stroke-width="2.6"/>
+<rect x="353" y="223.0" width="256" height="74" rx="37.5" fill="none" stroke="#b584ff" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-brain" x="378" y="242.0" width="36" height="36" color="#b584ff"/>
+<text x="428" y="268.2" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Intelligence</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="351" y="381.5" width="260" height="77" rx="38.5" fill="url(#midFill)" stroke="#2beb99" stroke-width="2.6"/>
+<rect x="353" y="383.0" width="256" height="74" rx="37.5" fill="none" stroke="#2beb99" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-db" x="378" y="402.0" width="36" height="36" color="#2beb99"/>
+<text x="428" y="415" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Data</text>
+<text x="428" y="439" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Management</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="982" y="61.5" width="260" height="77" rx="38.5" fill="url(#midFill)" stroke="#ffac62" stroke-width="2.6"/>
+<rect x="984" y="63.0" width="256" height="74" rx="37.5" fill="none" stroke="#ffac62" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-linux" x="1009" y="82.0" width="36" height="36" color="#ffac62"/>
+<text x="1059" y="95" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Garuda</text>
+<text x="1059" y="119" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Linux</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="982" y="221.5" width="260" height="77" rx="38.5" fill="url(#midFill)" stroke="#ff6298" stroke-width="2.6"/>
+<rect x="984" y="223.0" width="256" height="74" rx="37.5" fill="none" stroke="#ff6298" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-shield" x="1009" y="242.0" width="36" height="36" color="#ff6298"/>
+<text x="1059" y="267.1" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Cybersecurity</text>
+</g>
+<g filter="url(#nodeShadow)"><rect x="982" y="381.5" width="260" height="77" rx="38.5" fill="url(#midFill)" stroke="#9a85ff" stroke-width="2.6"/>
+<rect x="984" y="383.0" width="256" height="74" rx="37.5" fill="none" stroke="#9a85ff" stroke-width="1" opacity=".18"/>
+<use xlink:href="#i-cube" x="1009" y="402.0" width="36" height="36" color="#9a85ff"/>
+<text x="1059" y="415" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Systems &amp;</text>
+<text x="1059" y="439" fill="#f8fbff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Applications</text>
+</g>
+<circle cx="611" cy="100" r="6" fill="#35caff" filter="url(#glow)"/><circle cx="611" cy="100" r="5" fill="#35caff"/>
+<circle cx="611" cy="260" r="6" fill="#b783ff" filter="url(#glow)"/><circle cx="611" cy="260" r="5" fill="#b783ff"/>
+<circle cx="611" cy="420" r="6" fill="#2ff4a7" filter="url(#glow)"/><circle cx="611" cy="420" r="5" fill="#2ff4a7"/>
+<circle cx="982" cy="100" r="6" fill="#ffad62" filter="url(#glow)"/><circle cx="982" cy="100" r="5" fill="#ffad62"/>
+<circle cx="982" cy="260" r="6" fill="#ff659c" filter="url(#glow)"/><circle cx="982" cy="260" r="5" fill="#ff659c"/>
+<circle cx="982" cy="420" r="6" fill="#9a84ff" filter="url(#glow)"/><circle cx="982" cy="420" r="5" fill="#9a84ff"/>
+<circle cx="800" cy="260" r="134" fill="none" stroke="url(#ring)" stroke-width="17" opacity=".34" filter="url(#brightGlow)"/>
+<circle cx="800" cy="260" r="122" fill="url(#rootFill)" stroke="url(#ring)" stroke-width="5.5"/>
+<circle cx="800" cy="260" r="132" fill="none" stroke="url(#ring)" stroke-width="2" opacity=".55" stroke-dasharray="120 12 180 16 90 8"/>
+<path d="M800 221c-24 0-38-14-38-36 25-1 38 11 38 36m0 0c1-24 14-36 39-36 0 24-16 37-39 36v23" fill="#40ee9f"/>
+<text x="800" y="291" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" text-anchor="middle" fill="#ffffff">Avaneesh</text>
+<rect x="744" y="310" width="112" height="4" rx="2" fill="url(#ring)"/>
 </svg>
