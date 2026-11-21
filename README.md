@@ -8,25 +8,12 @@
 
 <h3 align="center">Expanding Interests</h3>
 
-```mermaid
-flowchart TD
-    A(("🌱 Avaneesh"))
-
-    A --> B["💻 Development"]
-    A --> C["🧠 Intelligence"]
-    A --> D["🛠️ Systems"]
-    A --> E["🛡️ Security"]
-
-    B --> B1["Full Stack Development"]
-    B --> B2["IoT Applications"]
-
-    C --> C1["Artificial Intelligence"]
-    C --> C2["Machine Learning"]
-
-    D --> D1["Garuda Linux"]
-    D --> D2["DBMS"]
-
-    E --> E1["Cybersecurity"]
+<h3 align="center">Expanding Interests</h3>
+<div align="center">
+  <img src="./assets/avaneesh-interests-tree.svg"
+       width="100%"
+       alt="Avaneesh's Expanding Interests" />
+</div>
 
     classDef root fill:#182C48,color:#FFFFFF,stroke:#58A6FF,stroke-width:3px;
     classDef mid fill:#132238,color:#DCEBFF,stroke:#58A6FF,stroke-width:2px;
